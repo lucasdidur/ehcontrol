@@ -4,8 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "b6e7dfffc2388296efe39ce7bab660e0",
     "packages": [
+        {
+            "name": "demindo/multicraft-api",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/demindo-nl/multicraft-api.git",
+                "reference": "b486a263c50a6d7e48575ad83c5dccf8c96e6534"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/demindo-nl/multicraft-api/zipball/b486a263c50a6d7e48575ad83c5dccf8c96e6534",
+                "reference": "b486a263c50a6d7e48575ad83c5dccf8c96e6534",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.2.0"
+            },
+            "suggest": {
+                "illuminate/support": "Installing Illuminate/Support will all you to take advantage of Facade for the Multicraft API."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Demindo\\MulticraftApi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Connor Peet",
+                    "email": "connor@connorpeet.com"
+                },
+                {
+                    "name": "Ronald van Eede",
+                    "email": "ronaldvaneede@gmail.com"
+                }
+            ],
+            "description": "A Multicraft API client",
+            "keywords": [
+                "Multicraft",
+                "laravel"
+            ],
+            "time": "2017-04-05T11:33:38+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
