@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'user' => 'root',
-    'key'  => 'toor',
-    'url'  => 'http://example.com/multicraft/api.php'
+	'user' => 'admin',
+	'key'  => 'TwjdXXeqQ%pyY*',
+	'url'  => 'http://server.ehaqui.com/multicraft/api.php'
 ];
