@@ -1,11 +1,10 @@
 <?php
 
-namespace EhControl\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use EhControl\Http\Requests;
-use EhControl\Http\Controllers\Controller;
+use App\Http\Requests;
 use Illuminate\Support\Facades\Route;
 
 class PermissionsController extends Controller

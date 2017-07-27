@@ -1,14 +1,13 @@
 <?php
 
-namespace EhControl\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Route;
-use Mcprohosting\MulticraftApi\MulticraftApi;
+use Demindo\MulticraftApi\MulticraftApi;
 use Illuminate\Http\Request;
 
-use EhControl\Http\Requests;
-use EhControl\Http\Controllers\Controller;
-use Mcprohosting\MulticraftApi\Multicraft;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {

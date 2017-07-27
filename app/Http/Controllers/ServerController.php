@@ -1,19 +1,18 @@
 <?php
 
-namespace EhControl\Http\Controllers;
+namespace App\Http\Controllers;
 
-use Mcprohosting\MulticraftApi\MulticraftApi;
-use Illuminate\Http\Request;
+use Demindo\MulticraftApi\MulticraftApi;
 use Illuminate\Support\Facades\Route;
 
-use EhControl\Http\Requests;
-use EhControl\Http\Controllers\Controller;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class ServerController extends Controller
 {
     public function __construct()
     {
-        $this->multicraft = new MulticraftApi(config('credentials.local.url'), config('credentials.local.user'), config('credentials.local.key'));
+	    $this->multicraft = new MulticraftApi(config('multicraft.url'), config('multicraft.user'), config('multicraft.key'));
     }
 
     /**
